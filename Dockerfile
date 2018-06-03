@@ -19,9 +19,7 @@ ADD dist/* /dist/
 # Try an Ant-based build:
 
 ENV ANT_HOME    /dist/apache-ant-1.9.11
-ENV ANT_CP      $ANT_HOME/lib/ant.jar:$ANT_HOME/lib/ant-launcher.jar
-ENV JAVA_HOME   /jdk1.5.0_22
-
+#ENV ANT_CP      $ANT_HOME/lib/ant.jar:$ANT_HOME/lib/ant-launcher.jar
 #RUN cd snipsnap && $JAVA_HOME/bin/java -Dant.home=$ANT_HOME -cp $ANT_CP org.apache.tools.ant.Main
 RUN cd snipsnap && $ANT_HOME/bin/ant
 
