@@ -1,0 +1,6 @@
+-*- mode: org; mode: visual-line; -*-
+#+STARTUP: indent logdone lognoteclock-out
+
+* `docker-snipsnap`
+
+A Docker container for the SnipSnap wiki.
